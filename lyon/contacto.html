@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon">
+</head>
+<body class="contacto">
+<nav>
+    <a href="index.html">Volver al menú</a>
+</nav>
+<h1 class="tituloNoticia">Contacto</h1>
+<h3>¿Quieres más información? ¡Rellena tus datos y nos pondremos en contacto contigo!</h3>
+<div>
+    <form class="contacto">
+        <div class="form-group">
+            <label for="input_nombre">Nombre:</label>
+            <input type="text" size="21" class="form-control" id="input_nombre" aria-describedby="nombre" placeholder="Ingrese su Nombre">
+        </div>
+        <div class="form-group">
+            <label for="input_apellido">Apellido:</label>
+            <input type="text" class="form-control" id="input_apellido" aria-describedby="apellido" placeholder="Ingrese su Apellido">
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="radioButton_sexo" id="sexoM" value="masculino">
+            <label class="form-check-label" for="sexoM">Masculino</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="radioButton_sexo" id="sexoF" value="femenino">
+            <label class="form-check-label" for="sexoF">Femenino</label>
+        </div>
+        <div class="form-group">
+            <label for="input_edad">Edad:</label>
+            <input type="text" class="form-control" id="input_edad" aria-describedby="edad" placeholder="Ingrese su Edad" maxlength="3">
+        </div>
+        <div class="form-group">
+            <label for="input_email">Email:</label>
+            <input type="email" class="form-control" id="input_email" aria-describedby="email" placeholder="Ingrese su Email">
+        </div>
+        <div class="form-group">
+            <label for="input_usuario">Usuario:</label>
+            <input type="text" class="form-control" id="input_usuario" aria-describedby="usuario" placeholder="Ingrese su Usuario">
+        </div>
+
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="chk_free" value="free">
+            <label class="form-check-label" for="chk_free">Informaciones sobre restaurante</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="chk_standard" value="standard">
+            <label class="form-check-label" for="chk_standard">Informaciones sobre actividades</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="chk_premium" value="premium">
+            <label class="form-check-label" for="chk_premium">Informaciones sobre alojamiento</label>
+        </div>
+        <div class="form-group">
+            <label class="my-1 mr-2" for="input_tema">Vos quedas:</label>
+            <select class="form-control" id="input_tema">
+                <option>Más de una semana en Lyon</option>
+                <option>Entre dos días y una semana en Lyon</option>
+                <option>Un día en LyonUn día en Lyon</option>
+            </select>
+        </div>
+        <button type="submit" class="btn">Enviar</button>
+        <a href="gracias.html"><h3>Salir</h3></a>
+    </form>
+</div>
+</body>
+</html>

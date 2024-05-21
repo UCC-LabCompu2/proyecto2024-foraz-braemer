@@ -1,0 +1,76 @@
+body.act {
+    background-color: #556be1;
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+}
+
+body.contacto {
+    background-color: #4bc5af;
+    margin: 2%;
+    padding: 2%;
+    font-size: 20px;
+}
+
+body.gracias {
+    background-color: #0a39f6;
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 2%;
+    padding: 2%;
+}
+
+body.index {
+    background-color: #06b1fa;
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+}
+
+body.restaurante {
+    background-color: rgba(84, 67, 237, 0.73);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+}
+
+h1 {
+    color: #040912;
+    text-align: center;
+}
+
+h1.gracias {
+    font-size: 50px;
+}
+
+#tituloPrincipal {
+    color: #040912;
+}
+
+form.contacto {
+    width: 100%;
+}
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+canvas {
+    border: 1px solid #040912;
+    background-color: #57acd9;
+}
+
+button:focus {
+    outline: none;
+    background-color: #102d77;
+}
+
+.btn {
+    width: 120px;
+    height: 20px;
+    background-color: #7f97bc;
+}
