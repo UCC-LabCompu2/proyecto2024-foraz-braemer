@@ -26,4 +26,4 @@ Este proyecto le permitirá descubrir y organizar un viaje a la ciudad de Lyon.
 | **HTML**       | Utilizado para estructurar la página web.  |
 | **CSS**        | Utilizado para estilizar la página web.    |
 
-Link al sitio : [Proyecto- Viaje en Lyon- Joséphine y Edouard] (https://ucc-labcompu2.github.io/proyecto2024-foraz-braemer/lyon)
+Link al sitio : [Proyecto- Viaje en Lyon- Joséphine y Edouard](https://ucc-labcompu2.github.io/proyecto2024-foraz-braemer/lyon)
