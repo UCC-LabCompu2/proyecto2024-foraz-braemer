@@ -13,7 +13,7 @@ body.contacto {
 }
 
 body.gracias {
-    background-color: #0a39f6;
+    background-color: #445ec5;
     text-align: center;
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
@@ -53,12 +53,6 @@ form.contacto {
     width: 100%;
 }
 
-.poetsen-one-regular {
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
 canvas {
     border: 1px solid #040912;
     background-color: #57acd9;
@@ -73,4 +67,30 @@ button:focus {
     width: 120px;
     height: 20px;
     background-color: #7f97bc;
+}
+
+.my-1 {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.mr-2 {
+    margin-right: 0.5rem;
+}
+
+/* Flexbox container for form and canvas */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container {
+    width: 60%;
+}
+
+.canvas-container {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
